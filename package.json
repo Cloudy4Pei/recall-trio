@@ -1,0 +1,13 @@
+{
+  "name": "recall-trio",
+  "version": "0.1.0",
+  "description": "给 AI 陪伴项目用的回忆三件套：原文检索、翻旧账、翻日历。无依赖的参考实现。",
+  "type": "module",
+  "main": "src/index.js",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "demo": "node examples/demo.js",
+    "test": "node --test test/recall.test.mjs"
+  }
+}
