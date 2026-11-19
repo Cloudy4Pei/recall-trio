@@ -60,7 +60,7 @@ npm test       # 测试
 
 ## 许可
 
-MIT。随便用、随便改，保留版权声明即可。
+[PolyForm Noncommercial 1.0.0](LICENSE)：个人、学习、研究、兴趣项目和非商业组织可以免费使用、修改、转发，转发时保留许可和署名；**不能商用**。白话说明见 [NOTICE.md](NOTICE.md)，想商用请先联系作者。
 
 由 [@Cloudy4Pei](https://github.com/Cloudy4Pei) 和 Claude 一起写成。
 
@@ -74,4 +74,4 @@ MIT。随便用、随便改，保留版权声明即可。
 - `recall_survey` — for “what was the silliest question I ever asked?”: filters lines by speaker / date / keywords / questions, has a model shortlist them in parallel batches, then ranks the finalists.
 - `recall_timeline` — browse by time: month → day → the raw transcript of that day, alongside optional daily/weekly/monthly summaries.
 
-Storage and model calls are injected, so it can be ported to any stack. Run `npm run demo` to see it on a fictional chat, and hand [PORTING.md](PORTING.md) to your coding assistant to adapt it. Prompts and tool descriptions are in Chinese; translate them if your companion speaks another language. MIT licensed.
+Storage and model calls are injected, so it can be ported to any stack. Run `npm run demo` to see it on a fictional chat, and hand [PORTING.md](PORTING.md) to your coding assistant to adapt it. Prompts and tool descriptions are in Chinese; translate them if your companion speaks another language. Licensed under [PolyForm Noncommercial 1.0.0](LICENSE): free for noncommercial use; see [NOTICE.md](NOTICE.md).
